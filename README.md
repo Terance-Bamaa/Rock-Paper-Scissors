@@ -22,7 +22,7 @@ A simple and interactive Rock-Paper-Scissors game built using **HTML**, **CSS**,
 ## 🚀 How to Run
 
 1. Download or clone the repository using bash:
-   git clone https://github.com/your-username/rock-paper-scissors-game.git
+   git clone https://github.com/Terance-Bamaa/Rock-Paper-Scissors.git
 
 
 2. Open the `index.html` file in your browser.
