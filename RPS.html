@@ -127,6 +127,14 @@
         <script>
             const score =  JSON.parse(localStorage.getItem('s'))
 
+       function move(computer){
+       if (computer === 'Rock'){
+        document.querySelector('.move').innerHTML = `Computer: &#9994`}
+       else if (computer === 'Paper'){
+        document.querySelector('.move').innerHTML = `Computer: &#9995`}
+       else{
+       document.querySelector('.move').innerHTML = `Computer: &#9996`}
+       }
 
 
 
@@ -142,7 +150,7 @@
          else{
             computer_move = 'Scissors'
          }
-         document.querySelector('.move').innerHTML = `Computer: ${computer_move}`
+         move(computer_move)
          return computer_move
      }
 
